@@ -25,7 +25,7 @@ Mainnet Deployed Granacoin (GRACO) Token can be found here:
 Build parameters: Solidity 0.8.10+commit.fc410830. Optimización 200
 
 ## Project Granacoin
-Our project was born on January 25, 2020 and was stored in the BSC maint network with the contract __, native name Granacoin (GRACO). It evolved with the whitepaper 1.0.0.1 where the investment funds and product marketing began thanks to our allied company Universo de los Cosmeticos SAS.
+Our project was born on January 25, 2020 and was stored in the BSC maint network with the contract 0x84aea9789137bfef54915d21dad85ecbdcdf840b, native name Granacoin (GRACO). It evolved with the whitepaper 1.0.0.1 where the investment funds and product marketing began thanks to our allied company Universo de los Cosmeticos SAS.
 
 * Link Whitepaper 1.0.0.1 Granacoin (GRACO).
 * Contract: https://bscscan.com/token/0x84aea9789137bfef54915d21dad85ecbdcdf840b
@@ -453,7 +453,7 @@ abstract contract Context {
 
  Compiler Version: v0.8.10+commit.fc410830
  Optimization Enabled: 1
---- Runs: 200
+__, Runs: 200
  ContractName: Granacoin
 * ContractBytecode:
 ```
