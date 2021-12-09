@@ -37,92 +37,33 @@ El Proyecto de Comercio GRACO en su etapa de creación fue presentado a la comun
 https://github.com/
 
 ## Característica GRACO
-* Nombre  SColcoin
-* Abreviatura SCOL
-* algoritmo: Scrypt
-* Tipo: PoW/PoS
-* Letra Direccion: S
-* RPC port  31498
-* P2P port   31497
-* Total coin supply: 80.000.000 coins
-* PoS percentage : 10% per year
-* Last PoW block:  block 10000
-* Coinbase maturity : 100 blocks
-* Target spacing: 64 seconds
-* Target timespan: 1 block
-* Transaction confirmations: 6 blocks
-
-# Creación Scol 2.0 Token.
-Scolcoin lanza un grupo de minería para su comunidad en la siguiente dirección: 
-* Wallet: SZoZvuRvD7aoPPVBZr89vAVb9wnCL8aGEW
-* Explorer: https://chainz.cryptoid.info/scol/address.dws?SZoZvuRvD7aoPPVBZr89vAVb9wnCL8aGEW.htm
-Establecerse en el mercado internacional con una estrategia de inversión y un fondo de liquidez gracias al Token Scolcoin
-* Pool Miner + Investment (Liquidity Fund) = Token Scol
-
-## Token Scolcoin (2021 -2022)
-Desarrollado como un token de respaldo para la comunidad, Scolcoin nace el día.
-
-Basado en la wallet SZoZvuRvD7aoPPVBZr89vAVb9wnCL8aGEW link explorador: https://chainz.cryptoid.info/scol/address.dws?SZoZvuRvD7aoPPVBZr89vAVb9wnCL8aGEW.htm
+* Nombre  Gracocoin
+* Abreviatura GRACO
+* Red: Binance Smart Chain (BSC)
+* Network: Maint BSC
+* Smart Contrac: S
+* Total coin supply: 15.000.000 coins
 
 // contracts/BEP20.sol
 Source Code: https://github.com/scolcoin/Token-Scolcoin-SCOL
 Link Contract: https://bscscan.com/address/0x703477125bbee6430b2c4968c1ef66701a01359f#code
 
-* /// @custom:security-contact info@scolcoin.com
+* /// @custom:security-contact coordinacion@granacoin.com.co
 * /***********************************************************
-* Scolcoin (SCOL) cryptocurrency backup and investment toke
+* Granacoin (GRACOL) cryptocurrency backup and investment toke
 * ************************************************************/  
-* // Copyright (c) 2018-2021 Scolcoin (SCOL) Native Blockchain
-* // Copyright (c) 2021-2022 Scolcoin (SCOL) token BEP20
-
+* // Copyright (c) 2020-2021 Granacoin (GRACOL)
 /*--------------------------------------------------------------- @dev
- * Exclusive premier investment pool for the community SCOLCOIN 2.0 Token
- * maximum profitability and liquidity. converts SCOL native <> SCOL Token.
+ * Exclusive premier investment pool for the community GRACOL Token
+ * maximum profitability and liquidity. converts GRACOL Token.
 */
 
 /* < Block Genesis Token >
- - Total Supply: 80.000.000 SCOL token
- - Initial Supply: 1 SCOL Token
- + Coin support:   1 SCOL (native blockchain)
+ - Total Supply: 15.000.000 GRACOL token
+ - Initial Supply: 15.000.000 GRACOL Token
+ 
  Details Pool Bep20
- Wallet: SZoZvuRvD7aoPPVBZr89vAVb9wnCL8aGEW
- Explorer: https://chainz.cryptoid.info/scol/address.dws?SZoZvuRvD7aoPPVBZr89vAVb9wnCL8aGEW.htm
- Hash Genesis Scol Native 93516d2b91f309ec151a26eab14a3662f408a58786f12a61fdb67fad305c275e
-*/
-
-## Pool Miner
-Staking SCOL 2.0 enviando los fondos a la billetera del Pool e ingresando su hash con requisitos mínimos y la rentabilidad máxima del 10% anual. No puede canjear su apuesta durante la primera fase, 2 años. pool.scolcoin.com convierte los SCOL nativos en tokens como la única prueba de sus SCOL de participación con una proporción de 1:1. con el requisito de ingresar una inversión al fondo de liquidez del token.
-
-# Distribución de recompensas (Staking)
-
-Cada 30 días distribuimos las recompensas generadas en la cadena de bloques nativa de Scolcoin entre todos los participantes en función de su posición de token de Scolcoin. Estas recompensas se distribuyen en Scol Nativo a las billeteras registradas en pool.scolcoin.com de los usuarios.
-
-# Retiro de fondos
-
-Podrás canjear tu token Scolcoin por Scolcoin Nativo cuando finalice la primera fase 2 años.
-
-## Investment (Fondo Liquidez)
-Un fondo de inversión colectiva Scolcoin también llamado liquidez en los intercambios descentralizados, este bloque consiste en recolectar fondos de diferentes inversionistas, naturales o legales, para apalancar el activo Token Scolcoin en los DELFIs actuales con diferentes pares, logrando capitalizar el proyecto a través de la tenencia de 2 años recibiendo recompensas directas a sus billeteras con Scolcoin Nativo, mediante minería en prueba de participación 10% anual. los recursos se aplicarán directamente en forma de liquidez en diferentes pares.
-Los proveedores de liquidez ganan comisiones de negociación y participación.
-
-## Los Proveedores de Liquidez ganan comisiones de trading
-Proporcionar liquidez le da una recompensa en forma de tarifas de trading cuando las personas utilizan su fondo de liquidez (su par de monedas agregado). Cada vez que alguien opera en PancakeSwap, el operador paga una tarifa del 0.25%, de la cual el 0.17% se agrega al Fondo de Liquidez del par de swaps en el que operaron.
-
-# Trading Liquidez:
-Brindar liquidez le brinda una recompensa en forma de tarifas comerciales cuando las personas usan su fondo de liquidez (su par de divisas agregado).
-
-# Recompensa por Staking
-Gracias al Pool Minero Scolcoin Nativo, se dará una compensación de acuerdo a la tenencia que cada persona tenga en el token (10% anual), las ganancias se distribuyen mensualmente.
-
-# Referido por Inversion
-Los comisionados del fondo de liquidez al registrar a sus invitados que realicen el proceso tendrán una comisión directa a sus billeteras en scolcoin nativo del 3% al 15% de la inversión realizada al fondo.
-
-# Table:
-* Comisión 15% por montos menores a $ 1,000 USDT
-* 10% de comisión por montos entre $ 1,000 y $ 3,000 USDT
-* Comisión 5% para montos entre $ 3,001 y $ 10,000 USDT
-* Comisión 3% por montos superiores a $ 10,001 USDT
-**** Nota: todas las comisiones se pagan en Scolcoin (SCOL) Nativo
+ Wallet: 
 
 ## Desarrollo:
 
