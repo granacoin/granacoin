@@ -68,25 +68,19 @@ Link Contract: https://bscscan.com/address/0x703477125bbee6430b2c4968c1ef66701a0
 ## Desarrollo:
 
 # 1 Fase:
-Implementación del sistema Oraculo Scolcoin (blockchain).
+Creación e Implementación del Contrato Token GRACOL.
 
 # 2 Fase:
-La implementación del sistema de conversión (Swap) se realizará mediante una API diseñada para la comunidad Scolcoin diseñada para intercambiar todas las monedas por token mediante la realización de una multiblockchain.
+Capacitacion y Promocion en la Comunidad GRACOL.
 
 # 3 Fase:
-Integración del proyecto PAD con el sistema multiblockchain API de Scolcoin. El proyecto PAD contiene un motor basado en inteligencia artificial para generar contratos inteligentes sobre una maquina virtual Scolcoin, con backup en redes publicas como soporte.
+Intercambio y procesador de Pago.
 
-# Definición Oraculo Blockchain:
-Portal estadístico de las cadenas blockchain actualmente propiedad del proyecto SCOL.
+# 4 Fase:
+Adopción en mercado local.
 
-## Conversión:
-la distribucion se realiza con la siguiente formula:
-* Scolcoin Nativos (pool staking) + $liquidez = Scolcoin Token  <2 años en staking>
-
-Nota: si tienen Criptomonedas nativas Scol podran minar en el pool de mineria y recibiras el token Scolcoin como respaldo del pool y adicional debes invertir en el fondo de liquidez para apalancar el token, esto te dara como resultado el Token Scolcoin.
-
-o si tienes Token Scolcoin:
-* podras cambiar al valor real por la criptomoneda scolcoin nativa para realizar intercambios. los token obtenidos se almacenaran en la wallet desarrollo 0xfDa31C592cdA440C88097A2C9ea0C4F8D69931aD.
+# 5 Fase:
+Lanzamiento Internacional.
 
 ## Roadmap
 
