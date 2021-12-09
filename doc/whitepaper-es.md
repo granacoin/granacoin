@@ -28,6 +28,7 @@ Parámetros de compilación: Solidity 0.8.10+commit.fc410830. Optimización 200
 Nuestro proyecto nació el 25 de enero de 2020  y se almaceno en la red BSC maint con el contrato __ , nombre nativa Granacoin (GRACO). Evolucionó con el whitepaper 1.0.0.1 donde se inicia el fondos de inversión y comercializacion de productos gracias a nuestra empresa aliada Universo de los Cosmeticos SAS.
 
 * Link Whitepaper 1.0.0.1 Granacoin (GRACO).
+* Test: https://testnet.bscscan.com/tx/0x202bfed5c1413c871d3294b44d5dfa7b27403b38f5dc56d2da83a922b3034ca8
 
 
 ## Criptomoneda Granacoin (GRACO) Blockchain 2020 - 2022
