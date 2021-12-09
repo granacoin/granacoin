@@ -27,19 +27,16 @@ Parámetros de compilación: Solidity 0.8.10+commit.fc410830. Optimización 200
 ## Proyecto Granacoin
 Nuestro proyecto nació el 25 de enero de 2020  y se almaceno en la red BSC maint con el contrato __ , nombre nativa Granacoin (GRACO). Evolucionó con el whitepaper 1.0.0.1 donde se inicia el fondos de inversión y comercializacion de productos gracias a nuestra empresa aliada Universo de los Cosmeticos SAS.
 
-* Link Whitepaper 2.0.0.2 Scolcoin Nativo Blockchain
-https://github.com/scolcoin/Whitepaper/blob/main/White%20Paper%20Scolcoin%20ver%202.0.0.2.pdf
+* Link Whitepaper 1.0.0.1 Granacoin (GRACO).
 
-## Criptomoneda SCOLCOIN (SCOL) Blockchain Nativa 2018 - 2021
-El Proyecto Social Scolcoin en su etapa de creación fue presentado a la comunidad como el activo digital ecológico colombiano para alcanzar la fase Proof of Stake, logrando posicionamiento y reconocimiento en LatAm. Su bloque de génesis se realizó el 3 de enero de 2018, se conformaron los comités y presencia en comunidades.
+
+## Criptomoneda Granacoin (GRACO) Blockchain 2020 - 2022
+El Proyecto de Comercio GRACO en su etapa de creación fue presentado a la comunidad como el activo digital colombiano para alcanzar un apalancamiento en base de prueba de comercio, logrando posicionamiento y reconocimiento en Colombia. las pruebas se iniciaron sobre la red de Ether en el contrato 25 de enero 2020, smart contract: https://etherscan.io/address/0x2b16d25b75aec74519c0a7487d3c509e74299a8f 
 
 * Link Código Scolcoin blockchain
-https://github.com/scolcoin/scolcoin
+https://github.com/
 
-* Scolcoin Blockchain Explorer
-https://chainz.cryptoid.info/scol/
-
-## Característica Scolcoin
+## Característica GRACO
 * Nombre  SColcoin
 * Abreviatura SCOL
 * algoritmo: Scrypt
