@@ -84,42 +84,38 @@ Lanzamiento Internacional.
 
 ## Roadmap
 
-# Q1 2021
-* Noviembre de 2021: creación de Token Scolcoin (documento técnico, ANN, Exchange)
-
-# Q2 2021
-* Diciembre de 2021 - Lanzamiento del Fondo Pool Minero y Fondo de Liquidez.
-* Inicio pool Minado. 
-* Inicio pool Loquidez.
-* (1 phase: Duración 2 Años)
+# Q1 2020
+* Enero 25 de 2021: Creación de Token Scolcoin (Test).
 
 # Q1 2022
-* Enero a diciembre - Venta de activos a través de corredores de bolsa y / o corredores.
-* Pago de recompensas del pool de minería (período mensual)
+* Diciembre de 2021 - Creación Token definitivo.
+* Enero 2022. Lanzamiento Token GRACO
+* (1 phase)
+
+# Q2 2022
+* Enero a febrero - Venta de activos a través de corredores de bolsa y / o corredores.
+* Capacitación comunidad.
+
+# Q3 2022
+* Marzo a Junio - Adopción local.
+
+# Q4 2022
+* Junio - Diciembre Fase 3.
 
 # Q1 2023
-* Enero - Desarrollo de la plataforma Oracle (2 fases).
-
-# Q2 2023
-* Junio - Desarrollo de la plataforma del proyecto PAD (3 fases).
-
-# Q1 2024
-* Enero - Pool de minería de tiempo de retirada (1 fase).
-
-# Q1 2025
-* Enero - Lanzamiento del proyecto PAD (3 fases).
+* Enero - Lanzamiento Internacional.
 
 ## Bibliotecas e interfaces
 
 ```Solidity
 pragma solidity ^0.8.2;
 ```
-Nosotros hemos desplegado Scolcoin token to mainnet with solidity ^0.8.2.
+Nosotros hemos desplegado Granacoin token to mainnet with solidity ^0.8.2.
 
 ```Solidity
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 ```
-De inmediato nos adentramos en el uso intensivo de las bibliotecas seguras de OpenZeppelin. Esta es la implementación básica de ERC-20 en la que se basa SCOL.
+De inmediato nos adentramos en el uso intensivo de las bibliotecas seguras de OpenZeppelin. Esta es la implementación básica de ERC-20 en la que se basa GRACO.
 
 ```Solidity
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
@@ -128,7 +124,7 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 ```
-Ya hemos incluido scolcoin.sol, ¿por qué incluir la interfaz? El contrato inteligente de SCOL acepta un _token como uno de los parámetros de construcción. Discutiremos esto en la sección ** constructor ** a continuación.
+Ya hemos incluido granacoin.sol, ¿por qué incluir la interfaz? El contrato inteligente de GRACOL acepta un _token como uno de los parámetros de construcción. Discutiremos esto en la sección ** constructor ** a continuación.
 
 ## ERC20Burnable
 Nuestro Token puede realizar la función de Burning Token, realizar Recompras para poder Quemar Tokens.
@@ -174,7 +170,7 @@ abstract contract ERC20Burnable is Context, ERC20 {
     }
 }
 
-// File: contracts/scolcoin.sol
+// File: contracts/granacoin.sol
 ```
 
 ## ERC20Snapshot
@@ -339,7 +335,7 @@ abstract contract ERC20Snapshot is ERC20 {
         }
     }
 }
-// File: contracts/scolcoin.sol
+// File: contracts/granacoin.sol
 ```
 
 ## AccessControl
@@ -447,8 +443,4 @@ abstract contract Context {
 
 // File: @openzeppelin/contracts/security/Pausable.sol
 ```
-## Exchange
-* Par USDT / SCOL
-https://pancakeswap.finance/info/pool/0xa12e7b2b2c1c5e8826ce00a59ad5aa4b1274b3b8
-* Par SCOL / WBNB
-https://pancakeswap.finance/info/pool/0x0af9a331cdd540ead58f03d5d7597ffb174bfa60
+
