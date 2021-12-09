@@ -12,4 +12,4 @@ Contract:
 Whitepaper Token
 ==========================
 * Spanish: 
-* English: 
+* English: https://github.com/granacoin/granacoin/blob/main/doc/whitepaper-en.md
