@@ -36,7 +36,7 @@ Nuestro proyecto nació el 25 de enero de 2020  y se almaceno en la red BSC main
 El Proyecto de Comercio GRACO en su etapa de creación fue presentado a la comunidad como el activo digital colombiano para alcanzar un apalancamiento en base de prueba de comercio, logrando posicionamiento y reconocimiento en Colombia. las pruebas se iniciaron sobre la red de Ether en el contrato 25 de enero 2020, smart contract: https://etherscan.io/address/0x2b16d25b75aec74519c0a7487d3c509e74299a8f 
 
 * Link Código Gracocoin blockchain
-https://github.com/
+https://github.com/granacoin/granacoin/blob/main/gracocoin.sol
 
 ## Característica GRACO
 * Nombre  Gracocoin
@@ -47,8 +47,8 @@ https://github.com/
 * Total coin supply: 15.000.000 coins
 
 // contracts/BEP20.sol
-Source Code: https://github.com/scolcoin/Token-Scolcoin-SCOL
-Link Contract: https://bscscan.com/token/0x84aea9789137bfef54915d21dad85ecbdcdf840b#code
+* Source Code: https://github.com/granacoin/granacoin
+* Link Contract: https://bscscan.com/token/0x84aea9789137bfef54915d21dad85ecbdcdf840b#code
 
 * /// @custom:security-contact coordinacion@granacoin.com.co
 * /***********************************************************
