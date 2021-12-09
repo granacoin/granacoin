@@ -36,7 +36,7 @@ Our project was born on January 25, 2020 and was stored in the BSC maint network
 The GRACO Trade Project in its creation stage was presented to the community as the Colombian digital asset to achieve leverage based on a trade test, achieving positioning and recognition in Colombia. The tests started on the Ether network in the contract January 25, 2020, smart contract: https://etherscan.io/address/0x2b16d25b75aec74519c0a7487d3c509e74299a8f 
 
 * Link Código Scolcoin blockchain
-https://github.com/
+https://github.com/granacoin/granacoin/blob/main/gracocoin.sol
 
 ## Characteristic GRACO
 * name Gracocoin 
@@ -47,8 +47,8 @@ https://github.com/
 * Total coin supply: 15,000,000 coins
 
 // contracts/BEP20.sol
-**Source Code: https://github.com/scolcoin/Token-Scolcoin-SCOL
-**Link Contract: https://bscscan.com/token/0x84aea9789137bfef54915d21dad85ecbdcdf840b#code
+* Source Code: https://github.com/granacoin/granacoin
+* Link Contract: https://bscscan.com/token/0x84aea9789137bfef54915d21dad85ecbdcdf840b#code
 
 * /// @custom:security-contact coordinacion@granacoin.com.co
 * /***********************************************************
