@@ -2,6 +2,8 @@
 Token Graco Red BSC
 
 Contract: 
+Contract Test: https://testnet.bscscan.com/address/0xa03161074d5e23882bd233f1c92b1b6397f29c7c
+Source: https://github.com/granacoin/granacoin/blob/main/gracocoin.sol
 
  Block Genesis Token 
 ==========================
