@@ -28,13 +28,14 @@ Parámetros de compilación: Solidity 0.8.10+commit.fc410830. Optimización 200
 Nuestro proyecto nació el 25 de enero de 2020  y se almaceno en la red BSC maint con el contrato __ , nombre nativa Granacoin (GRACO). Evolucionó con el whitepaper 1.0.0.1 donde se inicia el fondos de inversión y comercializacion de productos gracias a nuestra empresa aliada Universo de los Cosmeticos SAS.
 
 * Link Whitepaper 1.0.0.1 Granacoin (GRACO).
+* Contrato: https://bscscan.com/token/0x84aea9789137bfef54915d21dad85ecbdcdf840b
 * Test: https://testnet.bscscan.com/tx/0x202bfed5c1413c871d3294b44d5dfa7b27403b38f5dc56d2da83a922b3034ca8
 
 
 ## Criptomoneda Granacoin (GRACO) Blockchain 2020 - 2022
 El Proyecto de Comercio GRACO en su etapa de creación fue presentado a la comunidad como el activo digital colombiano para alcanzar un apalancamiento en base de prueba de comercio, logrando posicionamiento y reconocimiento en Colombia. las pruebas se iniciaron sobre la red de Ether en el contrato 25 de enero 2020, smart contract: https://etherscan.io/address/0x2b16d25b75aec74519c0a7487d3c509e74299a8f 
 
-* Link Código Scolcoin blockchain
+* Link Código Gracocoin blockchain
 https://github.com/
 
 ## Característica GRACO
@@ -47,7 +48,7 @@ https://github.com/
 
 // contracts/BEP20.sol
 Source Code: https://github.com/scolcoin/Token-Scolcoin-SCOL
-Link Contract: https://bscscan.com/address/0x703477125bbee6430b2c4968c1ef66701a01359f#code
+Link Contract: https://bscscan.com/token/0x84aea9789137bfef54915d21dad85ecbdcdf840b#code
 
 * /// @custom:security-contact coordinacion@granacoin.com.co
 * /***********************************************************
