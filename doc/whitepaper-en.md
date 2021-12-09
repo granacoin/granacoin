@@ -47,8 +47,8 @@ https://github.com/
 * Total coin supply: 15,000,000 coins
 
 // contracts/BEP20.sol
-Source Code: https://github.com/scolcoin/Token-Scolcoin-SCOL
-Link Contract: https://bscscan.com/token/0x84aea9789137bfef54915d21dad85ecbdcdf840b#code
+**Source Code: https://github.com/scolcoin/Token-Scolcoin-SCOL
+**Link Contract: https://bscscan.com/token/0x84aea9789137bfef54915d21dad85ecbdcdf840b#code
 
 * /// @custom:security-contact coordinacion@granacoin.com.co
 * /***********************************************************
