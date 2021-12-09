@@ -28,6 +28,7 @@ Build parameters: Solidity 0.8.10+commit.fc410830. Optimización 200
 Our project was born on January 25, 2020 and was stored in the BSC maint network with the contract __, native name Granacoin (GRACO). It evolved with the whitepaper 1.0.0.1 where the investment funds and product marketing began thanks to our allied company Universo de los Cosmeticos SAS.
 
 * Link Whitepaper 1.0.0.1 Granacoin (GRACO).
+* Contract: https://bscscan.com/token/0x84aea9789137bfef54915d21dad85ecbdcdf840b
 * Test: https://testnet.bscscan.com/tx/0x202bfed5c1413c871d3294b44d5dfa7b27403b38f5dc56d2da83a922b3034ca8
 
 
@@ -47,7 +48,7 @@ https://github.com/
 
 // contracts/BEP20.sol
 Source Code: https://github.com/scolcoin/Token-Scolcoin-SCOL
-Link Contract: https://bscscan.com/address/0x703477125bbee6430b2c4968c1ef66701a01359f#code
+Link Contract: https://bscscan.com/token/0x84aea9789137bfef54915d21dad85ecbdcdf840b#code
 
 * /// @custom:security-contact coordinacion@granacoin.com.co
 * /***********************************************************
