@@ -6,8 +6,8 @@ Contract:
  Block Genesis Token 
 ==========================
 * - Total Supply: 15.000.000 GRACO token
-* - Initial Supply: 1 GRACO Token
-* + Coin support:   1 GRACO (native blockchain)
+* - Initial Supply: 15.000.000 GRACO Token
+
 
 Whitepaper Token
 ==========================
