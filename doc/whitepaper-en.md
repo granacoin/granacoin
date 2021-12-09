@@ -43,7 +43,7 @@ https://github.com/
 * abbreviation GRACO 
 * Network: Binance Smart Chain (BSC)
 * Network: Maint BSC
-* Smart Contrac: S
+* Smart Contrac: 0x84aea9789137bfef54915d21dad85ecbdcdf840b
 * Total coin supply: 15,000,000 coins
 
 // contracts/BEP20.sol
