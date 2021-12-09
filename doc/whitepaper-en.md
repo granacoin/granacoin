@@ -1,48 +1,48 @@
-# Whitepaper 1.0.0.1 Español Token Graco (Granacoin)
+# Whitepaper 1.0.0.1 English Token Graco (Granacoin)
 
 ## Binance Smart Chain (BSC)
 
-Nuestro contrato inteligente es BEP-20. Para obtener detalles técnicos sobre el estándar BEP-20: https://academy.binance.com/en/glossary/bep-20
+Our smart contract is BEP-20. For technical details on the BEP-20 standard: https://academy.binance.com/en/glossary/bep-20
 
-Granacoin (GRACO) token desarrollado en Solidity. Asegúrese de consultar su tutorial: https://solidity.readthedocs.io/en/v0.6.9/introduction-to-smart-contracts.html
+Granacoin (GRACO) token developed in Solidity. Be sure to check out his tutorial: https://solidity.readthedocs.io/en/v0.6.9/introduction-to-smart-contracts.html
 
-Implementaciones de estándares ERC20
+ERC20 standard implementations
 
 Source code: 
 
 ## OpenZeppelin - Implementación segura
 
-Nuestros Smart Contracts se basan en seguros y confiables [OpenZeppelin ERC-20 Smart Contract](https://docs.openzeppelin.com/contracts/4.x/erc20)
+Our Smart Contracts are based on safe and reliable [OpenZeppelin ERC-20 Smart Contract](https://docs.openzeppelin.com/contracts/4.x/erc20)
 
-OpenZeppelin el código está en el corazón de nuestros tokens y seguimos sus prácticas de seguridad e implementación con mucho cuidado.
+OpenZeppelin code is at the heart of our tokens and we follow their security and implementation practices very carefully.
 
 # Token Granacoin (GRACO) 
 
-Este token es una implementación estándar de ERC-20 y se implementó en la red principal de Binance Smart Chain con un suministro máximo fijo de 15,000,000 SCOL. 
+This token is a standard implementation of ERC-20 and was deployed on the Binance Smart Chain mainnet with a fixed maximum supply of 15,000,000 SCOL. 
 
 Mainnet Deployed Granacoin (GRACO) Token can be found here: 
 
-Parámetros de compilación: Solidity 0.8.10+commit.fc410830. Optimización 200
+Build parameters: Solidity 0.8.10+commit.fc410830. Optimización 200
 
-## Proyecto Granacoin
-Nuestro proyecto nació el 25 de enero de 2020  y se almaceno en la red BSC maint con el contrato __ , nombre nativa Granacoin (GRACO). Evolucionó con el whitepaper 1.0.0.1 donde se inicia el fondos de inversión y comercializacion de productos gracias a nuestra empresa aliada Universo de los Cosmeticos SAS.
+## Project Granacoin
+Our project was born on January 25, 2020 and was stored in the BSC maint network with the contract __, native name Granacoin (GRACO). It evolved with the whitepaper 1.0.0.1 where the investment funds and product marketing began thanks to our allied company Universo de los Cosmeticos SAS.
 
 * Link Whitepaper 1.0.0.1 Granacoin (GRACO).
 
 
-## Criptomoneda Granacoin (GRACO) Blockchain 2020 - 2022
-El Proyecto de Comercio GRACO en su etapa de creación fue presentado a la comunidad como el activo digital colombiano para alcanzar un apalancamiento en base de prueba de comercio, logrando posicionamiento y reconocimiento en Colombia. las pruebas se iniciaron sobre la red de Ether en el contrato 25 de enero 2020, smart contract: https://etherscan.io/address/0x2b16d25b75aec74519c0a7487d3c509e74299a8f 
+## Token Granacoin (GRACO) Blockchain 2020 - 2022
+The GRACO Trade Project in its creation stage was presented to the community as the Colombian digital asset to achieve leverage based on a trade test, achieving positioning and recognition in Colombia. The tests started on the Ether network in the contract January 25, 2020, smart contract: https://etherscan.io/address/0x2b16d25b75aec74519c0a7487d3c509e74299a8f 
 
 * Link Código Scolcoin blockchain
 https://github.com/
 
-## Característica GRACO
-* Nombre  Gracocoin
-* Abreviatura GRACO
-* Red: Binance Smart Chain (BSC)
+## Characteristic GRACO
+* name Gracocoin 
+* abbreviation GRACO 
+* Network: Binance Smart Chain (BSC)
 * Network: Maint BSC
 * Smart Contrac: S
-* Total coin supply: 15.000.000 coins
+* Total coin supply: 15,000,000 coins
 
 // contracts/BEP20.sol
 Source Code: https://github.com/scolcoin/Token-Scolcoin-SCOL
@@ -65,57 +65,57 @@ Link Contract: https://bscscan.com/address/0x703477125bbee6430b2c4968c1ef66701a0
  Details Pool Bep20
  Wallet: 
 
-## Desarrollo:
+## Developing:
 
-# 1 Fase:
-Creación e Implementación del Contrato Token GRACOL.
+# 1 Phase:
+Creation and Implementation of the GRACOL Token Contract.
 
-# 2 Fase:
-Capacitacion y Promocion en la Comunidad GRACOL.
+# 2 Phase:
+Training and Promotion in the GRACOL Community.
 
-# 3 Fase:
-Intercambio y procesador de Pago.
+# 3 Phase:
+Exchange and Payment Processor.
 
-# 4 Fase:
-Adopción en mercado local.
+# 4 Phase:
+Adoption in local market.
 
-# 5 Fase:
-Lanzamiento Internacional.
+# 5 Phase:
+International Launch.
 
 ## Roadmap
 
 # Q1 2020
-* Enero 25 de 2021: Creación de Token Scolcoin (Test).
+* January 25, 2021: Creation of the Scolcoin Token (Test).
 
 # Q1 2022
-* Diciembre de 2021 - Creación Token definitivo.
-* Enero 2022. Lanzamiento Token GRACO
+* December 2021 - Definitive Token creation.
+* January 2022. GRACO Token Launch
 * (1 phase)
 
 # Q2 2022
-* Enero a febrero - Venta de activos a través de corredores de bolsa y / o corredores.
-* Capacitación comunidad.
+* January to February - Sale of assets through stockbrokers and / or brokers.
+* Community training.
 
 # Q3 2022
-* Marzo a Junio - Adopción local.
+* March to June - Local adoption.
 
 # Q4 2022
-* Junio - Diciembre Fase 3.
+* June - December Phase 3.
 
 # Q1 2023
-* Enero - Lanzamiento Internacional.
+* January - International Launch.
 
-## Bibliotecas e interfaces
+## Libraries and interfaces
 
-```Solidity
-pragma solidity ^0.8.2;
-```
-Nosotros hemos desplegado Granacoin token to mainnet with solidity ^0.8.2.
+Solidity
+pragma solidity ^ 0.8.2;
+`` ''
+We have deployed Granacoin token to mainnet with solidity ^ 0.8.2.
 
 ```Solidity
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 ```
-De inmediato nos adentramos en el uso intensivo de las bibliotecas seguras de OpenZeppelin. Esta es la implementación básica de ERC-20 en la que se basa GRACO.
+We immediately jump into the heavy use of OpenZeppelin's secure libraries. This is the basic ERC-20 implementation on which GRACO is based.
 
 ```Solidity
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
@@ -124,10 +124,10 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 ```
-Ya hemos incluido granacoin.sol, ¿por qué incluir la interfaz? El contrato inteligente de GRACOL acepta un _token como uno de los parámetros de construcción. Discutiremos esto en la sección ** constructor ** a continuación.
+We have already included granacoin.sol, why include the interface? The GRACOL smart contract accepts a _token as one of the build parameters. We will discuss this in the ** constructor ** section below.
 
 ## ERC20Burnable
-Nuestro Token puede realizar la función de Burning Token, realizar Recompras para poder Quemar Tokens.
+Our Token can perform the Burning Token function, make Repurchases to be able to Burn Tokens.
 
 ** _burn(account, amount); **
 
@@ -174,7 +174,7 @@ abstract contract ERC20Burnable is Context, ERC20 {
 ```
 
 ## ERC20Snapshot
-Con la función Snapshop nos permite obtener soporte del token en cualquier momento para tenerlo para consultas por temporadas definidas por una consecutiva, o tomar saldos de todos los titulares.
+With the Snapshop function, it allows us to obtain token support at any time to have it for consultations for seasons defined by a consecutive one, or to take balances from all holders.
 
 ** _snapshot(); **
 
@@ -339,7 +339,7 @@ abstract contract ERC20Snapshot is ERC20 {
 ```
 
 ## AccessControl
-El control de acceso, es decir, "a quién se le permite hacer esto", es increíblemente importante en el mundo de los contratos inteligentes. El control de acceso de su contrato puede regir quién puede acuñar tokens, congelar transferencias y muchas otras cosas. Por lo tanto, es fundamental comprender cómo lo implementa, no sea que alguien más robe todo su sistema.
+Access control, meaning "who is allowed to do this", is incredibly important in the world of smart contracts. Your contract's access control can govern who can mint tokens, freeze transfers, and many other things. So understanding how you implement it is critical, lest someone else steal your entire system.
 
 Code:
 
@@ -414,7 +414,7 @@ library Strings {
 ```
 
 ## Pausable
-la capacidad de realizar todas las operaciones del sistema con el administrador del sistema, esto permite evitar pérdidas.
+the ability to perform all system operations with the system administrator, this allows to avoid losses.
 
 Code:
 
