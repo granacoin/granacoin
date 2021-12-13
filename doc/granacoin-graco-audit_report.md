@@ -183,3 +183,5 @@ That the digital asset identified with the name GRANACOIN, with the abbreviation
 
 
 Audit Certificate Number 2, It is issued in Cali, Valle del Cauca, on the 12th day of December 2021.
+  
+https://github.com/blockchaintechnologysas/audit/blob/main/doc/granacoin-graco-audit_report.md  
