@@ -21,6 +21,24 @@ In total, **12** were reported including:
 
 It is reported that it has no errors (No critical security issues were found).
 
+## Event
+
+### 1. Event Transfer(address indexed from, address indexed to, uint tokens)
+
+#### Severity: LOW
+
+#### Description
+
+This event is emitted when the number of tokens (value) is sent from the from address to the to address.
+
+### 2. Event Approval(address indexed tokenOwner, address indexed spender, uint tokens)
+
+#### Severity: LOW
+
+#### Description
+
+This event is emitted when the amount of tokens (value) is approved by the owner to be used by spender (End User).
+
 ## Funcion
 
 ### 1. ERC20Burnable.
@@ -36,88 +54,113 @@ You can perform the Burning Token function, make Repurchases to be able to Burn 
 
 According to the code, only the administrator with the authorized Role can perform this action.
 
-### 2. Interface function definitions caused Remix compiler error.
+### 2. ERC20Snapshot.
 
-#### Severity: medium
+#### Severity: LOW
 
 #### Description
 
-The definitions of the functions of `Multisig.sol` contract made the Remix compiler unable of generating bytecode of the contract.
+The definitions of the functions of `gracocoin.sol`.
 
-This is not a security issue, but a code flaw. This can not affect a deployed contract, but this made compiler behave in unintended way. This hurts contract's reusability property as well.
+With the Snapshop function, it allows us to obtain token support at any time to have it for consultations for seasons defined by a consecutive one, or to take balances from all holders.
 
-Detailed description can be found [here](https://github.com/EthereumCommonwealth/ethereum-classic-multisig/issues/6).
+** _snapshot (); **
+
+Writing:
+• <Snapshot> Write (creates a copy are consecutive)
+Reading:
+• <TotalSupplyAt> <Snapshotld>
+• <BalanceOf> (Address) and (Snapshotld)
 
 #### Recommendation
 
-Change the implementation of empty function definitions.
+prolonged use of backups generates the cost of higher memory and this generates higher Cost in Gas
 
-### 3. Permissive fallback function.
+### 3. AccessControl.
+
+#### Severity: lOW
+
+#### Description
+
+El control de acceso, es decir, "a quién se le permite hacer esto", es increíblemente importante en el mundo de los contratos inteligentes. El control de acceso de su contrato puede regir quién puede acuñar tokens, congelar transferencias y muchas otras cosas. Por lo tanto, es fundamental comprender cómo lo implementa, no sea que alguien más robe todo su sistema.
+Escritura:
+•	< Grant Role >
+•	< Renounce Role>
+•	< Revoke Role >
+
+Lectura:
+•	< Get Role Admin >
+•	< Hash Role >
+  
+#### Recommendation  
+  
+Use with caution only the administered  
+
+### 4. Pausable
 
 #### Severity: low
 
 #### Description
 
-The fallback function allows any third-party contracts to send calls to a Multisig Wallet contract without any restrictions.
+the ability to perform all system operations with the system administrator, this allows to avoid losses.
+Writing:
+• <Paused> Enable or Disable
 
-This can not directly affect Multisig wallet state or funds. This can only hurt third-party contracts that will interact with the Multisig Wallet contract.
-
-Detailed description can be found [here](https://github.com/EthereumCommonwealth/ethereum-classic-multisig/issues/1).
-
-### 4. Inner variables visibility.
-
-#### Severity: low
-
-#### Description
-
-Some internal contract variables are hidden. This does not add any security, but can make it difficult to find errors if they occur.
-
-Detailed description can be found [here](https://github.com/EthereumCommonwealth/ethereum-classic-multisig/issues/3).
+Reading:
+• <Paused> Boolean (true and false)
 
 #### Recommendation
 
 Specify `public` visibility for the contract's inner variables.
 
-### 5. External parameter of a function shadows an existing declaration. 
+### 5. TotalSupply 
 
 #### Severity: low
 
 #### Description
 
-`getOwner(uint256 ownerIndex)` function of `Shareable.sol` contract has a parameter that shadows an existing declaration. It is likely a mistyped parameter name.
+Shows the total token created..
 
-It is strongly recommended to adhere to the same coding standard when developing important components of blockchain systems such as multisig wallet. Temporary variables and parameters must have a `_` prefix in this case.
-
-Detailed description can be found [here](https://github.com/EthereumCommonwealth/ethereum-classic-multisig/issues/5).
-
-#### Recommendation
-
-Rename `uint256 ownerIndex` parameter to `uint256 _ownerIndex`.
-
-### 6. Missing function visibility specifier.
+### 6. BalanceOf(address)
 
 #### Severity: low
 
 #### Description
 
-`confirm(bytes32 _h)` function of `Multisig.sol` contract has no visibility specifier unlike the other functions of this contract. It is strongly recommended to adhere to the same coding standard when developing important components of blockchain systems such as multisig wallet.
+Returns the number of tokens that an address (account) owns. This function is a getter and does not change the status of the contract.
 
-Detailed description can be found [here](https://github.com/EthereumCommonwealth/ethereum-classic-multisig/issues/4).
-
-#### Recommendation
-
-Implement a `public` visibility specifier for `confirm` function of `Multisig.sol` and `MultisigWallet.sol` contracts.
-
-### 7. ERC223 and ERC777 compatibility issue.
+### 7. allowance(address tokenOwner, address spender)
 
 #### Severity: not a security issue
 
 #### Description
 
-This wallet does not implement ERC223 receiver or ERC777 receiver interface.
+The ERC-20 standard allows one address to assign an assignment to another address in order to retrieve tokens from it. This getter returns the remaining number of tokens that spenderse will allow you to spend on behalf of owner. This function is a getter and does not modify the state of the contract and should return 0 by default.
 
-It will still accept token transfers from contracts that implement ERC223 or ERC777 token standards but it will lead to a silent contract execution without proper event logging.
+### 8. transfer(address to, uint tokens)
 
+#### Severity: not a security issue
+
+#### Description
+
+Moves the number tokens from the address of the caller to the function (msg.sender) to the address of the recipient. This function issues the Transfer. Returns true if the transfer was possible.
+ 
+### 9. approve(address spender, uint tokens)
+
+#### Severity: not a security issue
+
+#### Description
+
+Set the amount of token that allows the transfer of the balance call function (msg.sender). This function emits the approval event. The function returns whether the mapping was successful.
+  
+### 10. transferFrom(address from, address to, uint tokens)
+
+#### Severity: not a security issue
+
+#### Description
+
+Move the amount of tokens to the recipient address using the allocation mechanism. the amount is deducted after the caller's allowance. This function issues the Transfer event.  
+  
 # Specification
 
 The contracts at [EthereumCommonwealth/ethereum-classic-multisig](https://github.com/EthereumCommonwealth/ethereum-classic-multisig/tree/ab77dc77b69ee5d39971d908d3cd01c5a02fea8b) repo are a copy of contracts from the [Open Zeppelin](https://github.com/OpenZeppelin/zeppelin-solidity/blob/v1.2.0/contracts/) repository, with the exclusion of contracts that are not related to a multisig wallet.
