@@ -11,33 +11,30 @@ The audit mainly focused on the security of the funds and the fault tolerance of
 
 1. [gracocoin.sol](https://github.com/granacoin/granacoin/blob/main/gracocoin.sol)
 
-# Findings
+# Findings Processes
 
-In total, **7 issues** were reported including:
+In total, **12** were reported including:
 
-- 2 medium severity issues.
+- 2 event.
 
-- 4 low severity issues.
+- 10 funcion.
 
-- 1 minor observation.
+It is reported that it has no errors (No critical security issues were found).
 
-No critical security issues were found.
+## Funcion
 
-## Security issues
+### 1. ERC20Burnable.
 
-### 1. Permanent ownership.
-
-#### Severity: medium
+#### Severity: LOW
 
 #### Description
 
-Each owner of the multisig wallet is permanent. A mechanism to update a list of owners or claim ownership is not presented. This can result in a permanent loss of funds in some specific circumstances.
-
-Detailed description can be found [here](https://github.com/EthereumCommonwealth/ethereum-classic-multisig/issues/7).
+You can perform the Burning Token function, make Repurchases to be able to Burn Tokens.
+** _burn (account, amount); **
 
 #### Recommendation
 
-Implement a mechanism to manage ownership/ claim ownership.
+According to the code, only the administrator with the authorized Role can perform this action.
 
 ### 2. Interface function definitions caused Remix compiler error.
 
