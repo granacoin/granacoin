@@ -16,10 +16,15 @@ Whitepaper Token
 * Spanish: https://github.com/granacoin/granacoin/blob/main/doc/whitepaper-es.md
 * English: https://github.com/granacoin/granacoin/blob/main/doc/whitepaper-en.md
 
-Audit
+Audit Docs
 =========================
 * https://github.com/granacoin/granacoin/blob/main/doc/No2Acta-02CertificadoAuditoriaGranacoinGraco12Diciembre2021.pdf
 * https://github.com/granacoin/granacoin/blob/main/doc/granacoin-graco-audit_report.md
 
-### Blockchain Technology SAS
+### Audit Blockchain Technology SAS
 Cert: https://github.com/blockchaintechnologysas/audit/blob/main/cert/No2Acta-02CertificadoAuditoriaGranacoinGraco12Diciembre2021.pdf
+
+### Backup Company
+UNIVERSO DE LOS COSMETICOS S.A.S.
+NIT 900747059-5
+Web: https://www.universodelcosmetico.co/
