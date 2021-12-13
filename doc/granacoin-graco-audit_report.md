@@ -170,9 +170,9 @@ Move the amount of tokens to the recipient address using the allocation mechanis
 These contracts are ready to use. At the time of the audit, the development of these contracts is considered complete. a certificate was created authorizing the use by the company December 12, 2021. Link: https://github.com/blockchaintechnologysas/audit/blob/main/cert/No2Acta-02CertificadoAuditoriaGranacoinGraco12Diciembre2021.pdf
 
 ## Repositorio:
-•	https://bitbucket.org/granacoin/graco/ 
-•	https://gitlab.com/granacoin/granacoin 
-•	https://github.com/granacoin/granacoin 
+*	https://bitbucket.org/granacoin/graco/ 
+*	https://gitlab.com/granacoin/granacoin 
+*	https://github.com/granacoin/granacoin 
   
   
 # Certificado Digital
