@@ -15,3 +15,11 @@ Whitepaper Token
 ==========================
 * Spanish: https://github.com/granacoin/granacoin/blob/main/doc/whitepaper-es.md
 * English: https://github.com/granacoin/granacoin/blob/main/doc/whitepaper-en.md
+
+Audit
+=========================
+* https://github.com/granacoin/granacoin/blob/main/doc/No2Acta-02CertificadoAuditoriaGranacoinGraco12Diciembre2021.pdf
+* https://github.com/granacoin/granacoin/blob/main/doc/granacoin-graco-audit_report.md
+
+### Blockchain Technology SAS
+Cert: https://github.com/blockchaintechnologysas/audit/blob/main/cert/No2Acta-02CertificadoAuditoriaGranacoinGraco12Diciembre2021.pdf
