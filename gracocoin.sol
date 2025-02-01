@@ -7,6 +7,7 @@ Empresa: Grupo Empresarial Granacoin SAS
 NIT: 901766123-3
 Website: https://grupoempresarialgranacoin.com/
 Shop: https://tienda.grupoempresarialgranacoin.com/
+Network Scolcoin: 0x9A701a0a6593482C659325CD296e8d771AdA589e
 */
 
 
