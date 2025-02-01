@@ -25,6 +25,7 @@ Audit Docs
 Cert: https://github.com/blockchaintechnologysas/audit/blob/main/cert/No2Acta-02CertificadoAuditoriaGranacoinGraco12Diciembre2021.pdf
 
 ### Backup Company
-UNIVERSO DE LOS COSMETICOS S.A.S.
-NIT 900747059-5
-Web: https://www.universodelcosmetico.co/
+Empresa: Grupo Empresarial Granacoin SAS
+NIT: 901766123-3
+Website: https://grupoempresarialgranacoin.com/
+Shop: https://tienda.grupoempresarialgranacoin.com/
