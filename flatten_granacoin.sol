@@ -652,7 +652,7 @@ abstract contract ERC20Burnable is Context, ERC20 {
 
 pragma solidity ^0.8.18;
 
-contract Granacoin is ERC20, ERC20Burnable, Ownable {
+contract Token_Granacoin is ERC20, ERC20Burnable, Ownable {
 
     uint8 private constant _decimals = 18;
     uint256 public constant maxSupply = 15000000 * 10 ** _decimals;
