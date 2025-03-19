@@ -1,25 +1,19 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
-/*
-Token: Granacoin
-Abbreviation: GRACO
-Empresa: Grupo Empresarial Granacoin SAS
-NIT: 901766123-3
-Website: https://grupoempresarialgranacoin.com/
-Shop: https://tienda.grupoempresarialgranacoin.com/
-Network Scolcoin:
-*/
-
 /**
  * @title Granacoin Token (GRACO)
  * @dev Token ERC-20 con quema habilitada, suministro fijo y función de staking múltiple.
  * @dev Los usuarios pueden hacer múltiples staking con un mínimo de 200 GRACO cada uno, con un período de 1 año y un 10% de recompensa.
  * @author Grupo Empresarial Granacoin SAS
+ * @NIT: 901766123-3
  * @notice Este contrato implementa un token no minable con staking anual.
- * @custom:website https://token.granacoin.com.co/
+ * @custom:Token https://token.granacoin.com.co/
+ * @Custom: Website: https://grupoempresarialgranacoin.com/
+ * @custom:Shop: https://tienda.grupoempresarialgranacoin.com/
  * @custom:email granacoin.graco@gmail.com
  * @custom:whatsapp 312 2908166
+
  */
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.0/contracts/access/Ownable.sol";
@@ -80,4 +74,3 @@ contract Granacoin is ERC20, ERC20Burnable, Ownable {
         return _decimals;
     }
 }
-
