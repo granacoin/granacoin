@@ -12,7 +12,8 @@ pragma solidity ^0.8.18;
  * @Custom: Website: https://grupoempresarialgranacoin.com/
  * @custom:Shop: https://tienda.grupoempresarialgranacoin.com/
  * @custom:email granacoin.graco@gmail.com
- * @custom:whatsapp 312 2908166
+ * @custom:whatsapp +57 3122908166
+ * @custom: OPT 5000
  */
 
 // File: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.0/contracts/utils/Context.sol
