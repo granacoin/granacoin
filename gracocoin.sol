@@ -12,15 +12,15 @@ pragma solidity ^0.8.18;
  * @Custom: Website: https://grupoempresarialgranacoin.com/
  * @custom:Shop: https://tienda.grupoempresarialgranacoin.com/
  * @custom:email granacoin.graco@gmail.com
- * @custom:whatsapp 312 2908166
-
+ * @custom:whatsapp +57 3122908166
+ * @custom: OPT 5000
  */
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.0/contracts/access/Ownable.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.0/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.0/contracts/token/ERC20/ERC20.sol";
 
-contract Granacoin is ERC20, ERC20Burnable, Ownable {
+contract Token_Granacoin is ERC20, ERC20Burnable, Ownable {
 
     uint8 private constant _decimals = 18;
     uint256 public constant maxSupply = 15000000 * 10 ** _decimals;
