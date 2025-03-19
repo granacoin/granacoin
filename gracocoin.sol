@@ -14,6 +14,7 @@ pragma solidity ^0.8.18;
  * @custom:email granacoin.graco@gmail.com
  * @custom:whatsapp +57 3122908166
  * @custom: OPT 5000
+ * @custm: 0x59A16357348667ABcB0C25dBA4262527c72ce397
  */
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.0/contracts/access/Ownable.sol";
